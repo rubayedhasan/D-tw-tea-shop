@@ -55,7 +55,7 @@
   </head>
   <body>
     <!-- header section  -->
-    <header class="container mx-auto px-8 lg:px-10 bg-red-200 mt-20">
+    <header class="container mx-auto px-8 lg:px-10 mt-20">
       <!-- banner section  -->
       <section
         id="banner"
@@ -83,8 +83,25 @@
           </button>
         </div>
         <!-- banner image  -->
-        <div class="flex-1">
+        <div class="flex-1 relative">
           <img src="images/banner.png" alt="coffee pot" />
+
+          <!-- rating badge  -->
+          <div
+            class="flex justify-between items-center gap-5 w-64 px-6 py-5 drop-shadow-lg bg-white rounded-md absolute left-20 bottom-8"
+          >
+            <!-- rating star icon -->
+            <div class="text-yellow-400 text-3xl">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <!-- rating text  -->
+            <div>
+              <h6 class="text-tea-primary text-3xl font-extrabold">5.00</h6>
+              <p class="text-tea-secondary font-semibold">
+                Trust Pilot Ratings
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </header>
